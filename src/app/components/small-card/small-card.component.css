@@ -24,3 +24,7 @@
 .container_small-car_separator{
   margin-top: 20px;
 }
+
+a{
+  text-decoration: none;
+}
