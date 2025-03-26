@@ -1,6 +1,5 @@
 header{
   margin-top: 15px;
-margin-bottom: 15px;
-display: flex;
-justify-content: center;
+  margin-bottom: 15px;
+  color: grey;
 }

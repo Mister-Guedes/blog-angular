@@ -1,5 +1,34 @@
-@media screen and (max-width:600px) {
-  .container__menu-title > h1{
-    font-size: 30px;
+/* Responsividade para telas menores (tablets e celulares) */
+@media (max-width: 1024px) {
+  .title-content {
+    flex-direction: column; /* Empilha logo e texto */
+    gap: 20px; /* Reduz espaço entre os elementos */
+  }
+
+  .logo {
+    width: 150px; /* Reduz o tamanho da logo */
+  }
+
+  .text-content h1 {
+    font-size: 80px; /* Diminui o tamanho do título */
+  }
+
+  .text-content p {
+    font-size: 20px; /* Diminui o tamanho da descrição */
+  }
+}
+
+/* Responsividade para telas muito pequenas (celulares) */
+@media (max-width: 600px) {
+  .logo {
+    width: 100px; /* Tamanho menor da logo */
+  }
+
+  .text-content h1 {
+    font-size: 50px; /* Reduz o tamanho do título */
+  }
+
+  .text-content p {
+    font-size: 16px; /* Reduz o tamanho do texto */
   }
 }

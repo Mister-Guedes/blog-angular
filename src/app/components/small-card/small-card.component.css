@@ -1,7 +1,6 @@
 .container_small-card{
   margin-bottom: 15px;
   width: 700px;
-
 }
 
 .container_small-card-content {
@@ -19,6 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .container_small-car_separator{

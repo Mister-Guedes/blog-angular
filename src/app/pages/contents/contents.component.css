@@ -25,10 +25,15 @@
 }
 
 .contents_description{
-  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .contents_description > p{
   margin-top: 20px;
   color: grey;
+  width: 80%;
+  text-align: center;
 }
