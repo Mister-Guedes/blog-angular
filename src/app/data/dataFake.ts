@@ -1,8 +1,16 @@
 export const dataFake = [
   {
     "id": "1",
-    "title": "Fiat anuncia novo Argo 2026 sem mudanças na mecânica e com mudanças sutís no visual!",
-    "description": "Após diversos flagas, ​A Fiat apresentou recentemente a linha 2026 do Argo, trazendo atualizações significativas em design, tecnologia e equipamentos para manter sua competitividade no mercado de hatches compactos. As versões Trekking e Drive 1.3 AT agora contam com faróis full-LED, que aprimoram a visibilidade e conferem um visual mais moderno ao veículo. Além disso, os faróis de neblina também adotaram a tecnologia LED nessas configurações. Nas demais versões, foi incorporada uma linha de design em LED nos faróis, proporcionando um toque contemporâneo ao modelo",
+    "title": "Fiat anuncia novo Argo 2026 sem mudanças na mecânica e com mudanças sutís no visual",
+    "description":  `
+    <p>A próxima geração do Chevrolet Tracker pode surpreender o mercado.</p>
+    <img src="url-da-imagem1.jpg" alt="Imagem ilustrativa do Chevrolet Tracker" />
+    <p>Segundo informações da agência, o modelo pode ser baseado no Hyundai Creta.</p>
+    <a href="https://exemplo.com/hyundai-creta" target="_blank">Leia mais sobre o Hyundai Creta aqui.</a>
+    <p>Além disso, o novo Tracker deve trazer uma série de inovações tecnológicas.</p>
+    <img src="url-da-imagem2.jpg" alt="Interior do novo Chevrolet Tracker" />
+    <p>O lançamento está previsto para o próximo ano, com foco em mercados emergentes.</p>
+  `,
     "photoCover": "https://cdn.motor1.com/images/mgl/jl0wRN/s4/fiat-argo-drive-2026.webp"
   },
 

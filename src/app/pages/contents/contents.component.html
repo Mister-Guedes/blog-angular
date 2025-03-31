@@ -1,4 +1,19 @@
 <div class="container_contents">
+  <div class="contents_header">
+    <h1 class="title">{{contentTitle}}</h1>
+  </div>
+
+  <div class="contents_cover">
+    <img src="{{photoCover}}" alt="">
+    <p>Fonte: Fiat</p>
+  </div>
+
+  <div class="contents_description" [innerHTML]="contentDescription"></div>
+</div>
+
+
+<!--
+<div class="container_contents">
   <div class="contents_cover">
     <img src="{{photoCover}}" alt="">
   </div>
@@ -10,3 +25,4 @@
     <p>{{contentDescription}}</p>
   </div>
 </div>
+-->
