@@ -11,6 +11,7 @@ export class ContentsComponent implements OnInit {
   photoCover: string = ""
   contentTitle: string = "MINHA NOTICIA"
   contentDescription: string = "Descrição da notícia"
+  source: string = ""
   private id: string | null= "0"
 
 
@@ -33,5 +34,6 @@ export class ContentsComponent implements OnInit {
       this.contentTitle = result.title
       this.contentDescription = result.description
       this.photoCover = result.photoCover
+      this.source = result.source
     }
 }
