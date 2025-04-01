@@ -25,9 +25,11 @@
   font-size: 18px;
 }
 
-.bid-card__photo{
+.bid-card__photo {
   width: 100%;
   min-width: 400px;
+  border: 3.5px solid #ffffff;
+  box-sizing: border-box;
 }
 
 a{

@@ -1,5 +1,11 @@
 header{
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+footer{
+  margin-top: 15px;
+  margin-bottom: 10px;
   color: grey;
+  margin-left: 15px;
 }
